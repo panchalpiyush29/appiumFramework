@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="AppiumFramework" parallel="false">
+    <test name="AppiumTest">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="avd" value="Pixel_7"/>
+        <classes>
+            <class name="tests.LoginTests"/>
+        </classes>
+    </test>
+</suite>
